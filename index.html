@@ -11,6 +11,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- custome css -->
+    <link rel="stylesheet" href="style.css">
+
 
 
 </head>
@@ -53,7 +56,7 @@
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row bg-info p-5 bg-gradient d-flex align-items-center">
+                        <div class="row info-background p-5 bg-gradient d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>
                                     Cool Dude Headphone
@@ -66,7 +69,7 @@
                                 </p>
 
                                 <h1>$420</h1>
-                                <button class="btn btn-warning">
+                                <button class="buttons">
                                     Buy now
                                 </button>
                             </div>
@@ -77,7 +80,7 @@
 
                     </div>
                     <div class="carousel-item">
-                        <div class="row bg-info p-5 bg-gradient d-flex align-items-center">
+                        <div class="row info-background p-5 bg-gradient d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>
                                     Mega LCD TV For Sports
@@ -89,7 +92,7 @@
                                 </p>
 
                                 <h1>$1200</h1>
-                                <button class="btn btn-warning">
+                                <button class="buttons">
                                     Buy now
                                 </button>
                             </div>
@@ -101,7 +104,7 @@
 
                     </div>
                     <div class="carousel-item">
-                        <div class="row bg-info p-5 bg-gradient d-flex align-items-center">
+                        <div class="row info-background p-5 bg-gradient d-flex align-items-center">
                             <div class="col-lg-7">
                                 <h1>
                                     X-Box for your living room
@@ -113,7 +116,7 @@
                                 </p>
 
                                 <h1>$600</h1>
-                                <button class="btn btn-warning">
+                                <button class="buttons">
                                     Buy now
                                 </button>
                             </div>
@@ -139,10 +142,11 @@
         </section>
     </header>
     <main>
-        <section class="container">
+        <!-- categories -->
+        <section class="container categories">
             <div class="row g-4 my-5">
                 <div class="col-lg-4">
-                    <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
+                    <div class="p-3 border  d-flex align-items-center justify-content-between rounded-3 cat-1">
 
                         <h1 class="text-white">
                             Watch
@@ -150,8 +154,8 @@
                         <img src="images/categories/watch.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
+                <div class="col-lg-4 ">
+                    <div class="p-3 border d-flex align-items-center justify-content-between rounded-3 cat-2 ">
                         <h1 class="text-white">
                             Bag
                         </h1>
@@ -160,7 +164,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="p-3 border bg-warning d-flex align-items-center justify-content-between rounded-3">
+                    <div class="p-3 border  d-flex align-items-center justify-content-between rounded-3 cat-3">
                         <h1 class="text-white">
                             Shoes
                         </h1>
@@ -186,7 +190,7 @@
                             <p>$120</p>
                         </div>
                         <div class="m-3">
-                            <btn class="btn btn-warning">Buy Now</btn>
+                            <btn class="buttons">Buy Now</btn>
                         </div>
                     </div>
                 </div>
@@ -200,7 +204,7 @@
                             <p>$320</p>
                         </div>
                         <div class="m-3">
-                            <btn class="btn btn-warning">Buy Now</btn>
+                            <btn class="buttons">Buy Now</btn>
                         </div>
                     </div>
                 </div>
@@ -214,7 +218,7 @@
                             <p>$350</p>
                         </div>
                         <div class="m-3">
-                            <btn class="btn btn-warning">Buy Now</btn>
+                            <btn class="buttons">Buy Now</btn>
                         </div>
                     </div>
                 </div>
@@ -235,7 +239,7 @@
                             <p>$120</p>
                         </div>
                         <div class="m-3">
-                            <btn class="btn btn-warning">Buy Now</btn>
+                            <btn class="buttons">Buy Now</btn>
                         </div>
                     </div>
                 </div>
@@ -249,7 +253,7 @@
                             <p>$320</p>
                         </div>
                         <div class="m-3">
-                            <btn class="btn btn-warning">Buy Now</btn>
+                            <btn class="buttons">Buy Now</btn>
                         </div>
                     </div>
                 </div>
@@ -263,7 +267,7 @@
                             <p>$350</p>
                         </div>
                         <div class="m-3">
-                            <btn class="btn btn-warning">Buy Now</btn>
+                            <btn class="buttons">Buy Now</btn>
                         </div>
                     </div>
                 </div>
@@ -271,12 +275,13 @@
         </section>
 
         <section style=" height: 300px;"
-            class="container bg-info d-flex justify-content-center d-flex align-items-center rounded-3" id="subscribe">
+            class="container info-background d-flex justify-content-center d-flex align-items-center rounded-3"
+            id="subscribe">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <p>Get updates on sales, specials and more</p>
-                <input type="text" placeholder="write here"> <br>
-                <button class="btn btn-warning">Submit</button>
+                <input class="form-control" type="text" placeholder="write here"> <br>
+                <button class="buttons">Submit</button>
 
             </div>
 

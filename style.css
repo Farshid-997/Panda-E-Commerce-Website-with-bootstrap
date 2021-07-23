@@ -1,0 +1,22 @@
+.info-background{
+    background-color:#fceae8;
+}
+.categories img{
+    width:100px;
+}
+.cat-1{
+   background-color:  #ffa500;
+}
+.cat-2{
+    background-color: #da70d6;
+}
+.cat-3{
+    background-color: #0000ff;
+}
+.buttons{
+    background-color: #ff4c93;
+    color:white;
+    border-radius: 8px;
+    padding: 9px 25px;
+    border:none;
+}
